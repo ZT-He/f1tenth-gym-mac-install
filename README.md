@@ -22,8 +22,10 @@ Python 3.8 (managed via pyenv)
 ```
 Then add Homebrew to your shell:
 
+```ruby
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
+```
 
 2. Install pyenv and Python 3.8
 
