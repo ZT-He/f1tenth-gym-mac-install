@@ -2,7 +2,7 @@
 Installation guide and troubleshooting for F1TENTH Gym on macOS
 
 
-🌟 F1TENTH Gym Installation Guide (macOS M1/M2)
+🌟 F1TENTH Gym Installation Guide (macOS)
 
 This guide provides step-by-step instructions to install the F1TENTH Gym simulation environment on macOS with Apple Silicon (M1/M2). It also includes solutions to common installation errors.
 
