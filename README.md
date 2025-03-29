@@ -78,6 +78,8 @@ You should see a pygame window with the F1TENTH car following a track like below
 
 You're all set! 🏎️
 
+---
+
 ⚠️ Some Errors & Fixes
 
 ❌ ModuleNotFoundError: No module named 'gym_f1tenth'
