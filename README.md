@@ -17,9 +17,9 @@ Python 3.8 (managed via pyenv)
 📆 Installation Steps
 
 1. Install Homebrew
-
-sh /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 Then add Homebrew to your shell:
 
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
