@@ -74,11 +74,10 @@ python3 waypoint_follow.py
 ```
 You should see a pygame window with the F1TENTH car following a track like below:
 
-<img width="995" alt="waypoint-follow-screenshot" src="https://github.com/user-attachments/assets/476c7ac8-3428-4366-8881-5bbdccf0c1b9" />\
+<img width="995" alt="waypoint-follow-screenshot" src="https://github.com/user-attachments/assets/476c7ac8-3428-4366-8881-5bbdccf0c1b9" />  
 
 You're all set! 🏎️
 
-(  )
 ⚠️ Some Errors & Fixes
 
 ❌ ModuleNotFoundError: No module named 'gym_f1tenth'
