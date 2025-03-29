@@ -18,7 +18,7 @@ Python 3.8 (managed via pyenv)
 
 1. Install Homebrew
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sh /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 Then add Homebrew to your shell:
 
