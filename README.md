@@ -29,15 +29,17 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 2. Install pyenv and Python 3.8
 
+```ruby
 brew install pyenv
+```
 
 Add pyenv init to your shell config:
-
+```ruby
 echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
 echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 source ~/.zprofile
 source ~/.zshrc
-
+```
 Install and set Python 3.8.18:
 
 pyenv install 3.8.18
