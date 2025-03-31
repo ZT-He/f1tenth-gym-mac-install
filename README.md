@@ -4,11 +4,12 @@ Installation guide and troubleshooting for F1TENTH Gym on macOS
 
 🌟 F1TENTH Gym Installation Guide (macOS)
 
-This guide provides step-by-step instructions to install the F1TENTH Gym simulation environment on macOS with Apple Silicon (M1/M2). It also includes solutions to common installation errors.
+This guide provides step-by-step instructions to install the F1TENTH Gym simulation environment on macOS based on the instruction from: https://github.com/f1tenth/f1tenth_gym. It also includes solutions to some common installation errors.
+
+You can also use Docker for the installation. However, please keep in mind that an **_Nvidia GPU_** is required for the Docker setup.
+
 
 ✅ Prerequisites
-
-macOS with M1/M2 chip
 
 Homebrew installed
 
