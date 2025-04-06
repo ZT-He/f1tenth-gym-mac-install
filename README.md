@@ -73,7 +73,7 @@ brew install sdl2 sdl2_image sdl2_mixer sdl2_ttf
 ```ruby
 pip install pygame==2.1.0
 pip install matplotlib numpy scipy
-gpip install gym==0.21.0
+gpip install gym==0.19.0
 ```
 ---
 7. Run Example Simulation
