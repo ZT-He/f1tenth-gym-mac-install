@@ -91,16 +91,17 @@ You're all set! 🏎️
 ⚠️ Some Errors & Fixes
 
 ❌ ModuleNotFoundError: No module named 'gym_f1tenth'
-
 ✅ Fix: Use the correct import:
+
 ```ruby
 import f110_gym
 ```
+
 ---
 ❌ % echo 'eval "$(pyenv init -)"' >> ~/.zshrc
-zsh: permission denied: /Users/milange/.zshrc
-
+zsh: permission denied: /Users/xxx/.zshrc
 ✅ Fix: Try this command with ```sudo```:
+
 ```ruby
 sudo sh -c 'echo "eval \"\$(pyenv init -)\"" >> ~/.zshrc'
 ```
@@ -108,17 +109,16 @@ You’ll be prompted for your password
 
 ---
 ❌ source ../f1tenth_venv/bin/activate: No such file or directory
-
 ✅ Fix: Check the virtual environment path. If you followed this guide:
 
 ```ruby
 source ~/f1tenth_ws/f1tenth_venv/bin/activate
 ```
+
 ---
-
 ❌ cp: No such file or directory: levine.png
-
 ✅ Fix: Reclone the full repository:
+
 ```ruby
 rm -rf f1tenth_gym
 git clone https://github.com/f1tenth/f1tenth_gym.git
