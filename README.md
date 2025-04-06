@@ -96,8 +96,17 @@ You're all set! 🏎️
 ```ruby
 import f110_gym
 ```
+---
+❌ % echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+zsh: permission denied: /Users/milange/.zshrc
 
+✅ Fix: Try this command with ```sudo```:
+```ruby
+sudo sh -c 'echo "eval \"\$(pyenv init -)\"" >> ~/.zshrc'
+```
+You’ll be prompted for your password
 
+---
 ❌ source ../f1tenth_venv/bin/activate: No such file or directory
 
 ✅ Fix: Check the virtual environment path. If you followed this guide:
@@ -105,7 +114,7 @@ import f110_gym
 ```ruby
 source ~/f1tenth_ws/f1tenth_venv/bin/activate
 ```
-
+---
 
 ❌ cp: No such file or directory: levine.png
 
